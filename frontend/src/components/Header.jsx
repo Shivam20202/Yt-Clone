@@ -36,6 +36,7 @@ export default function Header({ onSearch, searchQuery = '' }) {
       navigate(`/?search=${encodeURIComponent(query.trim())}`);
     }
   };
+  
 
   const handleInputChange = (e) => {
     const value = e.target.value;
