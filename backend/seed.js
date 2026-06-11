@@ -159,3 +159,4 @@ await channel2.save();
 console.log('Database seeded successfully!');
 console.log(`Users: john@example.com / jane@example.com  (password: password123)`);
 mongoose.connection.close();
+
