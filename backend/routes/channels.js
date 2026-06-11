@@ -16,6 +16,7 @@ router.get('/:id', async (req, res) => {
   }
 });
 
+
 // POST /api/channels - create a channel (protected)
 router.post('/', protect, async (req, res) => {
   try {
