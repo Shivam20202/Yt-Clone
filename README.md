@@ -2,6 +2,10 @@
 
 A full-stack YouTube clone application built using modern web technologies including Node.js, Express.js, MongoDB, React, and Vite.
 
+# Video Link (Google drive)
+
+ **Link**- https://drive.google.com/file/d/1hPA1d0x-vxedR8yJcw-leY61h6Xb82XK/view?usp=sharing
+
 # Github Link
 
  **Github Link**- https://github.com/Shivam20202/Yt-Clone
