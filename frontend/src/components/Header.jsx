@@ -37,7 +37,6 @@ export default function Header({ onSearch, searchQuery = '' }) {
     }
   };
   
-
   const handleInputChange = (e) => {
     const value = e.target.value;
     setQuery(value);
