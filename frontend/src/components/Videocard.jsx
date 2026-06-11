@@ -22,7 +22,6 @@ function timeAgo(date) {
   return `${years} year${years > 1 ? 's' : ''} ago`;
 }
 
-
 export default function VideoCard({ video }) {
   const thumbnailPlaceholder =
     'https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?w=640&h=360&fit=crop';
