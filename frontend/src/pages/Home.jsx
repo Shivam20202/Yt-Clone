@@ -46,6 +46,7 @@ export default function Home() {
     }
   };
 
+  
   const handleSearch = (q) => {
     setCategory('All');
     if (!q.trim()) {
