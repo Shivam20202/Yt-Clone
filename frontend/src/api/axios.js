@@ -1,7 +1,6 @@
 import axios from 'axios';
 
 //Authorization of token coming from header
-
 const api = axios.create({
   baseURL: '/api',
 });
