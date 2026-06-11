@@ -8,6 +8,7 @@ import { useSidebar } from '../context/SidebarContext.jsx';
 import api from '../api/axios.js';
 import './Home.css';
 
+//Home page defined here
 export default function Home() {
   const { mode } = useSidebar();
   const [searchParams, setSearchParams] = useSearchParams();

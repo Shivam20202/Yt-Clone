@@ -7,6 +7,8 @@ import Sidebar from '../components/Sidebar.jsx';
 import api from '../api/axios.js';
 import './VideoPlayer.css';
 
+//Video player page is defined here
+
 function formatViews(n = 0) {
   if (n >= 1_000_000) return (n / 1_000_000).toFixed(1) + 'M';
   if (n >= 1_000) return (n / 1_000).toFixed(0) + 'K';

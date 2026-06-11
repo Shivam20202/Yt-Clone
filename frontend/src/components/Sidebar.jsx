@@ -2,6 +2,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { useSidebar } from '../context/SidebarContext.jsx';
 import './Sidebar.css';
 
+//Sidebar defined here
 const mainNav = [
   {
     label: 'Home',

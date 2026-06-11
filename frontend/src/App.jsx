@@ -4,6 +4,7 @@ import VideoPlayer from './pages/VideoPlayer.jsx';
 import AuthPage from './pages/AuthPage.jsx';
 import ChannelPage from './pages/ChannelPage.jsx';
 
+//Main App file with all routes
 export default function App() {
   return (
     <Routes>

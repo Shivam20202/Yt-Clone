@@ -1,6 +1,7 @@
 import { createContext, useContext, useEffect, useState } from 'react';
 import api from '../api/axios.js';
 
+//Context for authentication
 const AuthContext = createContext(null);
 
 export function AuthProvider({ children }) {

@@ -1,5 +1,6 @@
 import { createContext, useContext, useState, useEffect } from 'react';
 
+//Sidebar opening and closing context
 const SidebarContext = createContext(null);
 
 export function SidebarProvider({ children }) {

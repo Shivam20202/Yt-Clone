@@ -3,6 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext.jsx';
 import './AuthPage.css';
 
+//Page for authentication/login
 export default function AuthPage() {
   const [mode, setMode] = useState('login');
   const { login, register } = useAuth();

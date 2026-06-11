@@ -1,5 +1,6 @@
 import './FilterBar.css';
 
+//Filter component 
 const categories = [
   'All',
   'Web Development',

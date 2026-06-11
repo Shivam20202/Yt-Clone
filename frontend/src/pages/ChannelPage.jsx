@@ -7,6 +7,8 @@ import Sidebar from '../components/Sidebar.jsx';
 import api from '../api/axios.js';
 import './ChannelPage.css';
 
+
+//Page for channel creation 
 const CATEGORIES = [
   'All', 'Web Development', 'JavaScript', 'Data Structures',
   'Server', 'Music', 'Information Technology', 'Gaming',

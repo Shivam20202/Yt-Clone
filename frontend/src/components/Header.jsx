@@ -4,6 +4,7 @@ import { useAuth } from '../context/AuthContext.jsx';
 import { useSidebar } from '../context/SidebarContext.jsx';
 import './Header.css';
 
+//Navbar defined here
 export default function Header({ onSearch, searchQuery = '' }) {
   const { user, logout } = useAuth();
   const { toggle } = useSidebar();
