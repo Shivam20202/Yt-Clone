@@ -51,28 +51,62 @@ A full-stack YouTube clone application built using modern web technologies inclu
 
 ```text
 yt-clone/
+│
 ├── backend/
 │   ├── config/
+│   │   └── db.js
+│   │
 │   ├── middleware/
+│   │   └── auth.js
+│   │
 │   ├── models/
+│   │   ├── User.js
+│   │   ├── Channel.js
+│   │   └── Video.js
+│   │
 │   ├── routes/
+│   │   ├── auth.js
+│   │   ├── channels.js
+│   │   └── videos.js
+│   │
+│   ├── .env
 │   ├── package.json
 │   ├── server.js
 │   └── seed.js
 │
 ├── frontend/
+│   ├── public/
+│   │
 │   ├── src/
 │   │   ├── api/
+│   │   │   └── axios.js
+│   │   │
 │   │   ├── components/
+│   │   │   ├── Header.jsx
+│   │   │   ├── Sidebar.jsx
+│   │   │   ├── FilterBar.jsx
+│   │   │   └── VideoCard.jsx
+│   │   │
 │   │   ├── context/
+│   │   │   ├── AuthContext.jsx
+│   │   │   └── SidebarContext.jsx
+│   │   │
 │   │   ├── pages/
+│   │   │   ├── Home.jsx
+│   │   │   ├── VideoPlayer.jsx
+│   │   │   ├── ChannelPage.jsx
+│   │   │   └── AuthPage.jsx
+│   │   │
 │   │   ├── App.jsx
 │   │   ├── main.jsx
 │   │   └── index.css
+│   │
 │   ├── package.json
 │   └── vite.config.js
 │
-└── README.md
+├── .gitignore
+├── README.md
+└── package.json
 ```
 
 ## Installation & Setup
