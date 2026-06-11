@@ -696,6 +696,7 @@
   flex-shrink: 0;
 }
 
+
 .suggested-filter-btn:hover {
   background: var(--bg-hover);
   border-color: #505050;
