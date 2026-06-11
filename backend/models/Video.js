@@ -1,5 +1,7 @@
 import mongoose from 'mongoose';
 
+//Defined videoschema
+
 const commentSchema = new mongoose.Schema(
   {
     userId: {

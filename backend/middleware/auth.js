@@ -1,6 +1,8 @@
 import jwt from 'jsonwebtoken';
 import User from '../models/User.js';
 
+//middleware for authentication
+
 const protect = async (req, res, next) => {
   let token;
 
