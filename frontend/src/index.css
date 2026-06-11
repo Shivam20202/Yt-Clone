@@ -1,0 +1,102 @@
+:root {
+  --bg-primary: #0f0f0f;
+  --bg-secondary: #212121;
+  --bg-hover: #272727;
+  --bg-elevated: #1a1a1a;
+  --text-primary: #f1f1f1;
+  --text-secondary: #aaaaaa;
+  --text-muted: #717171;
+  --border: #3f3f3f;
+  --red: #ff0000;
+  --blue: #3ea6ff;
+  --chip-bg: #272727;
+  --chip-active-bg: #f1f1f1;
+  --chip-active-text: #0f0f0f;
+  --header-height: 56px;
+  --sidebar-expanded: 240px;
+  --sidebar-mini: 72px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+  color-scheme: dark;
+}
+
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--text-primary);
+  background: var(--bg-primary);
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+input,
+textarea,
+select {
+  font-family: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.icon-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  color: var(--text-primary);
+  transition: background 0.15s;
+}
+
+.icon-btn svg {
+  width: 24px;
+  height: 24px;
+}
+
+.icon-btn:hover {
+  background: var(--bg-hover);
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

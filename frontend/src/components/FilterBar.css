@@ -1,0 +1,53 @@
+.filter-bar {
+  position: sticky;
+  top: var(--header-height);
+  z-index: 80;
+  background: var(--bg-primary);
+  padding: 12px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.filter-scroll {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding: 0 24px;
+  scrollbar-width: none;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.filter-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.filter-chip {
+  flex-shrink: 0;
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: 1px solid #303030;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  background: transparent;
+  color: var(--text-primary);
+  transition: background 0.15s, border-color 0.15s;
+  white-space: nowrap;
+}
+
+.filter-chip:hover {
+  background: #222222;
+  border-color: #505050;
+}
+
+.filter-chip-active {
+  background: var(--text-primary);
+  color: var(--bg-primary);
+  border-color: var(--text-primary);
+}
+
+.filter-chip-active:hover {
+  background: #e0e0e0;
+  border-color: #e0e0e0;
+}
